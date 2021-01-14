@@ -5,26 +5,26 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-getting-started-with-ac-mplab-mcc",
         "version": "1.0.0",
-        "displayName": "  ",
+        "displayName": "Getting Started with Analog Comparator (AC)",
         "projectName": "avr128da48-getting-started-with-ac-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This repository contains 3 MCC generated code examples that show how to use the AC peripheral of the AVR128DA48 device in different modes. It is a companion to the TB3211-Getting Started with Analog Comparator (AC).",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.30.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx",
+            "semverRange": "1.6.88"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "4.0.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,12 +36,17 @@
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            "Peripherals",
+            "AC"
         ],
         "peripherals": [
+            "AC"
         ],
         "keywords": [
+            "Getting Started",
+            "Analog Comparator"
         ],
 		"additionalData": {
 			"longDescription": {
